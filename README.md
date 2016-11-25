@@ -1,22 +1,21 @@
 # How to Use as Student
+With Google Chrome, open the `index.html` file to see your current blog post. Refresh this page after you make changes to see the changes.
 
+To write your blog, write inside the HTML tags like so `<p> YOUR TEXT HERE </p>`. In HTML, `<p>` means "paragraph." To write a paragraph header, write your text inside `<h> </h>` tags. 
 
-# [Start Bootstrap](http://startbootstrap.com/) - [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/)
+To be able to play audio, copy and paste your MP3 file in this folder (same folder as `index.html`) and rename it `soundfile.mp3`. 
+To reference segments of audio, write this tag: `<sup class="player">0:30-0:35 </sup>`. The important thing is to keep it in `mm:ss` or `hh:mm:ss` and to write a `-` between the start/end times. Now, if you click the time, it should play the audio.
 
-[Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
+# Giving Credit
+I wrote the JS code for parsing the student-written timestamps, loading the audio, and playing the audio. I used the [howler.js](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) library to actually play the audio files. 
 
-## Getting Started
+The HTML and CSS is from a bootstrap template, the README of which I've pasted below.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/clean-blog/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-clean-blog.git`
-* Fork the repo
+## [Start Bootstrap](http://startbootstrap.com/) - [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/)
 
-## Bugs and Issues
+[Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/clean-blog/).
-
-## Creator
+## Start Bootstrap Creator
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
