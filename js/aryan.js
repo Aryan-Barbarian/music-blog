@@ -75,6 +75,7 @@ function initMusic() {
 
 function bindClickEvents() {
 	$(".innerPlayer").click( function(evt) {
+		sound.pause()
 		el = evt.toElement
 		console.log(el)
 		var spriteName = el.getAttribute("spriteName")
