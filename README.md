@@ -7,7 +7,7 @@ To be able to play audio, copy and paste your MP3 file in this folder (same fold
 To reference segments of audio, write this tag: `<sup class="player">0:30-0:35 </sup>`. The important thing is to keep it in `mm:ss` or `hh:mm:ss` and to write a `-` between the start/end times. Now, if you click the time, it should play the audio.
 
 # Giving Credit
-I wrote the JS code for parsing the student-written timestamps, loading the audio, and playing the audio. I used the [howler.js](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) library to actually play the audio files. 
+I (Aryan Falahatpisheh) wrote the JS code for parsing the student-written timestamps, loading the audio, and playing the audio. I used the [howler.js](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) library to actually play the audio files. 
 
 The HTML and CSS is from a bootstrap template, the README of which I've pasted below.
 
