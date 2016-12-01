@@ -59,7 +59,6 @@ function preprocessTags() {
 		linkEl.setAttributeNode(durationAttr)
 		linkEl.setAttributeNode(linkClassAttr)
 		linkEl.setAttributeNode(spriteNameAttr)
-
 		el.innerHTML = ""
 		el.appendChild(linkEl)
 	};
@@ -67,7 +66,7 @@ function preprocessTags() {
 
 function initMusic() {
 	sound = new Howl({
-		src: ['soundfile.mp3'],
+		src: ['soundfile.m4a'],
 		html5 : true,
 		sprite : sprites
 	});
